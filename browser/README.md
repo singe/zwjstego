@@ -1,4 +1,4 @@
-Chrome browser plugin to highlight and show hidden content encoded in zero-width joiners.
+Chrome browser plugin to highlight and show hidden content encoded in unicode variant selectors.
 
 Characters with embedded messages will be highlighted with a red square:
 
