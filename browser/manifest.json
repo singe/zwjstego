@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "ZWJ Steganography Hidden Message Detector",
+    "version": "1.0",
+    "description": "Highlights and reveals hidden messages encoded in zero width joiners included in Unicode characters.",
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"],
+        "run_at": "document_end"
+      }
+    ]
+  }
+  
